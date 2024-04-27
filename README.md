@@ -2,7 +2,11 @@
   <h1>
     MY_WEATHER_APP
   </h1>
+
+**Versão em Português (Brazilian Portuguese)**, acesse [README_pt.md](./README_pt.md).
 </div>
+
+---
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;This weather application was developed using HTML, CSS, and JavaScript. It allows users to input their desired city to retrieve current weather information. The aim is to provide a streamlined user experience for accessing essential weather data quickly. This project also serves as a learning opportunity for web technologies and integration of weather APIs.</p>
 
