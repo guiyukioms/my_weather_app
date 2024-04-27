@@ -34,7 +34,7 @@ After generating your OpenWeatherMap API key, you will need to insert it into th
 
 - Open the `script.js` file in your preferred code editor.
 - Look for the `apiKey` variable in the `script.js` file.
-- Replace `'YOURAPIKEYHERE'` with the API key you copied earlier.
+- Replace `'SUA_CHAVE_DE_API_AQUI'` with the API key you copied earlier.
 
 Example:
 
