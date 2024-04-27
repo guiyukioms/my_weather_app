@@ -2,41 +2,40 @@
   <h1>
     MY_WEATHER_APP
   </h1>
+</div>
 
- </div>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;This weather application was developed using HTML, CSS, and JavaScript. It allows users to input their desired city to retrieve current weather information. The aim is to provide a streamlined user experience for accessing essential weather data quickly. This project also serves as a learning opportunity for web technologies and integration of weather APIs.</p>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Este aplicativo de clima foi desenvolvido utilizando HTML, CSS e JavaScript. Permite aos usuários inserir a cidade desejada para obter informações meteorológicas atuais. O objetivo é proporcionar uma experiência do usuário simplificada para acesso rápido a dados meteorológicos essenciais. Este projeto também serve como uma oportunidade de aprendizado para tecnologias da web e integração de APIs de clima.</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;For security reasons and to ensure the best possible experience for all users, the API key has not been included directly in the project. Instead, to set up the API key, follow the detailed steps in the 'OpenWeatherMap API Key Configuration' section of this documentation to generate and insert your own API key. It is always important to protect and hide your API keys to prevent unauthorized access and maintain data security. This way, each user will have control over access to weather data, and we will maintain service integrity for everyone. Thank you in advance for following these guidelines and contributing to data security and privacy.</p>
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;Por questões de segurança e para garantir a melhor experiência possível para todos os usuários, a chave de API não foi incluída diretamente no projeto. Em vez disso, para configurar a chave de API, siga os passos detalhados na seção de 'Configuração da Chave de API do OpenWeatherMap' desta documentação para gerar e inserir sua própria chave de API. É sempre importante proteger e ocultar suas chaves de API para evitar acessos não autorizados e manter a segurança dos dados. Desta forma, cada usuário terá controle sobre o acesso aos dados meteorológicos e manteremos a integridade do serviço para todos. Agradeço antecipadamente por seguir estas orientações e contribuir para a segurança e privacidade dos dados.</p>
+---
 
---- 
+## OpenWeatherMap API Key Configuration
 
-## Configuração da Chave de API do OpenWeatherMap
+To use this project, you will need an API key from OpenWeatherMap. Follow the steps below to configure your API key:
 
-Para usar este projeto, você precisará de uma chave de API do OpenWeatherMap. Siga as etapas abaixo para configurar sua chave de API:
-
-1. **Crie uma conta no OpenWeatherMap**: Se você ainda não tiver uma conta, vá para [OpenWeatherMap](https://openweathermap.org/) e crie uma conta gratuita.
+1. **Create an account on OpenWeatherMap**: If you do not already have an account, go to [OpenWeatherMap](https://openweathermap.org/) and create a free account.
    
-2. **Faça login na sua conta OpenWeatherMap**: Após criar sua conta, faça login no OpenWeatherMap.
+2. **Log in to your OpenWeatherMap account**: After creating your account, log in to OpenWeatherMap.
 
-3. **Gere sua chave de API**: Depois de fazer login, vá para "API Keys" e clique em "Create key". Dê um nome à sua chave e clique em "Generate".
+3. **Generate your API key**: After logging in, go to "API Keys" and click on "Create key." Give your key a name and click "Generate."
 
-4. **Copie sua chave de API**: Após gerar sua chave de API, copie-a para a área de transferência.
+4. **Copy your API key**: After generating your API key, copy it to the clipboard.
 
-   *Caso você já tenha uma chave de API criada e enviada por e-mail*, você pode copiá-la do e-mail e seguir para a etapa 5.
+   *If you already have an API key created and sent by email*, you can copy it from the email and proceed to step 5.
 
-5. **Uso da Chave de API no Projeto**
+5. **Using the API Key in the Project**
 
-Depois de gerar sua chave de API do OpenWeatherMap, você precisará inseri-la no código-fonte do projeto. Siga estas etapas para adicionar sua chave de API:
+After generating your OpenWeatherMap API key, you will need to insert it into the project's source code. Follow these steps to add your API key:
 
-- Abra o arquivo `script.js` no seu editor de código preferido.
-- Procure pela variável `apiKey` no arquivo `script.js`.
-- Substitua `'SUACHAVEDEAPIAQUI'` pela chave de API que você copiou anteriormente.
+- Open the `script.js` file in your preferred code editor.
+- Look for the `apiKey` variable in the `script.js` file.
+- Replace `'YOURAPIKEYHERE'` with the API key you copied earlier.
 
-Exemplo:
+Example:
 
 ```javascript
-const apiKey = 'SUA_CHAVE_DE_API_AQUI';
+const apiKey = 'YOUR_API_KEY_HERE';
 ```
 
 ---
